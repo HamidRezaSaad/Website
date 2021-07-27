@@ -1,0 +1,573 @@
+body {
+    margin: 0;
+}
+
+#s_m {
+    transition: 0.7s;
+}
+
+#ul_menu li input {
+    border: none;
+}
+
+#ul_menu {
+    list-style: none;
+    margin: 0 0 0 5%;
+}
+
+li {
+    display: inline-block;
+    padding: 7.5px 5px 7.5px 5px;
+}
+
+.margin_menu {
+    margin-right: 13.8%;
+    transition: 0.7s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 7.5px 5px 7.5px 5px;
+}
+
+.margin_menu:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+}
+
+li:hover a {
+    color: black;
+}
+
+#menu {
+    background-color: black;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+i {
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+#header {
+    width: 100%;
+    height: 0%;
+    background-color: #130f40;
+    padding-top: 0.4%;
+}
+
+#all {
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 2%;
+    text-align: center;
+    color: #fdcb6e;
+}
+
+h2 {
+    margin-top: 6%;
+    text-align: center;
+    color: #74b9ff;
+    margin-bottom: 0;
+}
+
+#index_h1 {
+    margin-top: 3%;
+    z-index: 5;
+    position: absolute;
+    top: 25%;
+    left: 42.6%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#index_h2 {
+    padding: 5px;
+    margin-top: 3%;
+    z-index: 5;
+    position: absolute;
+    top: 15%;
+    left: 43%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+#s_m:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+}
+
+#middle {
+    width: 100%;
+    padding: 3% 0 3% 0;
+    background-color: rgba(255, 252, 240, 0.918);
+    margin-bottom: 0;
+}
+
+#footer {
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 5px solid black;
+}
+
+p {
+    color: white;
+}
+
+.f_l:hover {
+    color: gray;
+    cursor: default;
+}
+
+#left {
+    width: 25%;
+    display: inline-block;
+    margin-left: 0.8%;
+}
+
+#b_middle {
+    display: inline-block;
+    margin-left: 7%;
+    width: 21%;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    padding-left: 10%;
+}
+
+.contact {
+    display: block;
+}
+
+#right {
+    display: inline-block;
+    width: 33%;
+    position: absolute;
+}
+
+.v {
+    font-size: 38px;
+    margin-left: 20%;
+}
+
+#send {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#send:hover {
+    background-color: white;
+    color: black;
+}
+
+#contactus {
+    font-weight: bold;
+    border-bottom: 1px solid white;
+    display: inline-block;
+}
+
+.v:hover {
+    color: rgb(158, 158, 158);
+}
+
+#right a i {
+    margin: 18% 1% 0 0;
+}
+
+#ul_menu li input {
+    display: none;
+}
+
+#s_m:hover input {
+    display: inline-block;
+}
+
+textarea {
+    resize: none;
+}
+
+@font-face {
+    font-family: 'BNazanin';
+    src: url('http://fontonline.ir/fonts/BNazanin.eot?#') format('eot'),
+    url('http://fontonline.ir/fonts/BNazanin.ttf') format('truetype'),
+    url('http://fontonline.ir/fonts/BNazanin.woff') format('woff');
+}
+
+#index {
+    background-color: #fbfdff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    padding: 1%;
+    width: 90%;
+    direction: rtl;
+}
+
+#index p {
+    color: black;
+    font-family: 'BNazanin';
+    font-size: 24px;
+}
+
+#index a {
+    background: #b45f06;
+    background: linear-gradient(#b45f06, #f6b26b);
+    border-radius: 5px;
+    box-shadow: 2px 2px #cccccc;
+    padding: 8px 20px;
+    color: #ffffff;
+    display: inline-block;
+    font: normal 400 24px/1 "Komika", cursive;
+    text-align: center;
+    text-shadow: 1px 1px #000000;
+}
+
+#index a:hover {
+    background: #bf9000;
+    background: linear-gradient(#bf9000, #ffd966);
+}
+
+#header1 {
+    width: 100%;
+    height: 0%;
+    background-color: #130f40;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#middle1 {
+    width: 100%;
+    background-color: rgba(255, 252, 240, 0.918);
+    margin-bottom: 1%;
+    padding-top: 2%;
+}
+
+.margin_image {
+    width: 150px;
+    height: 150px;
+    margin-right: 39%;
+    margin-top: 3%;
+    border: 5px solid #30336b;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    padding: 0.4%;
+    transition: 1s;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.margin_image:hover {
+    transform: rotate(0.9deg);
+    opacity: 0.3;
+}
+
+#gallery {
+    background-color: #fbfdff;
+    width: 90%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+#home:hover {
+    background-color: orange;
+    color: black;
+    border-radius: 5px;
+}
+
+#send_2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-left: 6%;
+}
+
+#send_2:hover {
+    background-color: gray;
+    border: 1px solid gray;
+    color: white;
+}
+
+.input {
+    font-size: 18px;
+    border: 2px solid #30336b;
+    display: block;
+}
+
+.input:hover {
+    border: 2px solid #1289A7;
+}
+
+.input:focus {
+    border: 2px solid #FFC312;
+}
+
+.f_l_2 {
+    color: black;
+    cursor: default;
+    margin-left: 36%;
+    font-size: 20px;
+}
+
+iframe {
+    margin-left: 25%;
+}
+
+#contact {
+    background-color: #fbfdff;
+    width: 65%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+}
+
+#left p {
+    color: white;
+}
+
+#left p:hover {
+    color: gray;
+    cursor: default;
+}
+
+#about {
+    background-color: #fbfdff;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    margin: 1% auto;
+    direction: rtl;
+    padding: 1%;
+    overflow: hidden;
+}
+
+#about p {
+    font-size: 24px;
+    line-height: 250%;
+    direction: rtl;
+}
+
+#borderimg {
+    padding: 0.4%;
+    margin-right: 34%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    border-radius: 50%;
+}
+
+#borderimg:hover {
+    transform: scale(1.3, 1.3);
+}
+
+#form {
+    margin-left: 40%;
+}
+
+.about_p {
+    color: black;
+    direction: ltr;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#show {
+    width: 100%;
+    height: 1455px;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 5;
+}
+
+#showimg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 6;
+}
+
+#slider {
+    width: 100%;
+    height: 375px;
+    overflow: hidden;
+}
+
+.sliderpic {
+    width: 100%;
+    height: 375px;
+}
+
+#prev {
+    top: 25%;
+    left: 0.4%;
+}
+
+#next {
+    top: 25%;
+    left: 97%;
+}
+
+#prev:hover, #next:hover {
+    background-color: rgb(219, 219, 219);
+    border: 1px solid rgb(219, 219, 219);
+}
+
+#content {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+#show i {
+    font-size: 60px;
+    color: white;
+    z-index: 20;
+    position: relative;
+    top: 24%;
+    left: 79%;
+    cursor: pointer;
+}
+
+#index div {
+    display: inline;
+    position: relative;
+}
+
+#index div span {
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    z-index: 3;
+    top: -235%;
+    left: 33%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+#about table {
+    margin: 1% auto;
+    direction: ltr;
+    text-align: center;
+}
+
+#about table td {
+    border-right: 1px solid black;
+    padding: 1%;
+}
+
+#about table th {
+    background-color: rgb(158, 158, 158);
+    padding: 1%;
+}
+
+#about table td:not(:empty):before {
+    content: '✔';
+    padding-right: 8px;
+    font-size: 20px;
+    color: green;
+}
+
+#content1 {
+    width: 819px;
+    height: auto;
+    margin: 1% auto;
+    direction: ltr;
+}
+
+#slider1 {
+    width: 850px;
+    height: 375px;
+    overflow: hidden;
+}
+
+#prevv, #nextt, #prev, #next {
+    background-color: gray;
+    border-radius: 50%;
+    border: 1px solid gray;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    position: absolute;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1)
+}
+
+#prevv {
+    top: 57%;
+    left: 23.5%;
+}
+
+#nextt {
+    top: 57%;
+    left: 76%;
+}
+
+#prevv:hover, #nextt:hover {
+    background-color: rgb(219, 219, 219);
+    border: 1px solid rgb(219, 219, 219);
+}
+
+#about p {
+    color: black;
+}
+
+#about form {
+    direction: ltr;
+    text-align: center;
+    border: 2px dotted black;
+    padding: 1%;
+}
+
+#about form input:not(#Pay) {
+    display: block;
+    margin: 1.5% auto;
+    padding: 0.3%;
+    border: 1px solid yellowgreen;
+    font-size: 16px;
+}
+
+#about form label {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: block;
+    font-size: 20px;
+}
+
+#table_div table {
+    float: right;
+    width: 545px;
+    margin: 2.5%;
+}
+
+#ti, #ti2 {
+    display: inline;
+    margin-right: 20%;
+}
+
+#ti2 {
+    margin-right: 40%;
+}
+
+#price {
+    text-align: left !important;
+    margin-right: 47%;
+}
+
+#first, #last {
+    clear: both;
+}
